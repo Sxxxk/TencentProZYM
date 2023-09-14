@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{C4460C08-4860-459F-C216-81953A4D25CF}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "FPSPro1",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
