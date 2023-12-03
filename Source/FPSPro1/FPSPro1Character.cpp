@@ -112,7 +112,6 @@ void AFPSPro1Character::SetupPlayerInputComponent(class UInputComponent* PlayerI
 {
 	// set up gameplay key bindings
 	check(PlayerInputComponent);
-
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
@@ -206,6 +205,7 @@ void AFPSPro1Character::BeginTouch(const ETouchIndex::Type FingerIndex, const FV
 	TouchItem.Location = Location;
 	TouchItem.bMoved = false;
 }
+
 
 void AFPSPro1Character::EndTouch(const ETouchIndex::Type FingerIndex, const FVector Location)
 {
